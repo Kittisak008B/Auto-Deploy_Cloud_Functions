@@ -44,6 +44,14 @@
 $`cat private_key_file_name.json|base64 -w 0`
 
 <h2> 5) Push code to the main branch to run the workflow </h2>
+<p>
+  <img src="./pics/e01.png" width="500"> 
+  <p> Workflow run successfully </p> <br>
+  <img src="./pics/e02.png" width="700"> 
+  <p> Deploy Cloud Functions successfully </p> <br>
+  <img src="./pics/e03.png" width="700"> 
+  <p> data has been successfully loaded into BigQuery </p> <br>
+</p>
 
 <h2> Reference </h2>
 https://github.com/google-github-actions/deploy-cloud-functions <br>
