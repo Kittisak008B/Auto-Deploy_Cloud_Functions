@@ -24,7 +24,7 @@ jobs:
       - name: Ready for deployment
         run: echo Ready for deployment
           
-      - name: Setup GCloud
+      - name: Setup Google Cloud
         uses: google-github-actions/auth@v2
         with:
           project_id: ${{ secrets.GCP_PROJ_NAME }}
