@@ -1,7 +1,6 @@
 import requests
 import datetime
 import pytz
-
 import base64
 import os
 from google.cloud import bigquery
@@ -62,4 +61,3 @@ def insert_data(event, context):
     table = client.get_table(table_ref)
     result = client.insert_rows(table, record)
     return result
-  
