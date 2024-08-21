@@ -41,7 +41,7 @@
       GCP_CREDENTIALS -> base64-encoded of the private key </p>
 </p>
 
-$`cat private_key_file_name.json|base64 -w 0'`
+$`cat private_key_file_name.json|base64 -w 0`
 
 <h2> 5) Push code to the main branch to run the workflow </h2>
 
